@@ -1,0 +1,60 @@
+
+.model-main-contaner{
+    display: flex;
+    align-items: center;
+}
+.crossZone{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 15px;
+   
+}
+.crossZone span{
+    font-size: 20px;
+}
+.sortType{
+    margin-bottom: 10px;
+    padding: 0px 15px;
+}
+.sortType h4{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.sortType span{
+    font-size: 20px;
+}
+.LH{
+    margin-right: 6px;
+}
+.choosingSort{
+    margin-bottom: 6px;
+}
+.choosingSort label{
+    margin-left: 6px;
+}
+.clearAndClose{
+    padding: 10px 25px 20px 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.clearAndClose button{
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 2px;
+    
+    
+    
+}
+.clear{
+    background-color: inherit;
+    color: rgb(83, 83, 206);
+    border: 1px solid gray;
+}
+.done{
+    border: none;
+    background-color: rgb(21, 130, 173);
+    width: 60px;
+    color: white;
+}

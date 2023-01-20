@@ -1,0 +1,56 @@
+.contact{
+    background-color: #2879fe;
+    color:white;
+    padding:5px;
+    
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 120px;
+}
+
+.mail input{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 220px;  
+    
+}
+.mail button{
+    padding: 8px;
+    border: none;
+    background-color: rgb(96, 160, 96);
+}
+.social-icons{
+      
+       margin-top: 10px;
+       display: flex;
+       gap:5px;
+    }
+
+
+@media screen and (min-width : 320px) and (max-width : 768px){
+    .contact{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        
+        
+    }
+    .wrapper{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 4px;
+        
+    }
+    .wrapper span {
+        font-size: 16px;
+        color: rgb(241, 241, 241);
+        margin-bottom: 10px;
+     
+       
+    }
+}

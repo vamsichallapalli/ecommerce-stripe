@@ -1,0 +1,51 @@
+.cart{
+    position: absolute;
+    right: 0px;
+    padding: 20px;
+    background-color: white;
+    width: 390px;
+    min-height: 100px;
+    z-index: 999;
+}
+.cart >h1{
+    margin-bottom: 20px;
+    color: gray;
+    font-weight: 400;
+    font-size: 24px;
+}
+.Caitem{
+    display: flex;
+    gap:6px;
+    margin-bottom: 15px; 
+}
+.cpdesc{
+    text-align: justify;
+}
+.Caitem img{
+    width: 80px;
+    height: 100px;
+}
+.deleteIcon{
+    color:red;
+    align-self: center;
+}
+.total{
+   display: flex;
+   justify-content: space-between;
+}
+.total span{
+    color:black;
+    font-weight: 500;
+}
+.checkout{
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.reset{
+    color: red;
+}
